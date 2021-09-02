@@ -168,7 +168,9 @@ const Aapp = () =>{
     return(
    <>
    <div className="d">
-     <h1> {Time}</h1>
+     <h1>Time is {Time}</h1>
+     <br></br>
+     <b>made by Amit Kumar (iit bhu)</b>
    
    </div>
 
