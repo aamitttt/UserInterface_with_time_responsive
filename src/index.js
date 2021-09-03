@@ -175,40 +175,40 @@
 
 /// Greeting interface app acoording to time
 
-// import React from 'react';
-// import ReactDOM from 'react-dom';
-// import "./index.css";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import "./index.css";
 
-// let curDate = new Date();
-// curDate = curDate.getHours();
-// let greeting = " ";
-// const c = { };
-// if(curDate>=1 && curDate <12)
-// {
-//    greeting = "Good Morning";
-//    c.color="green";
-// }else if(curDate>=12 && curDate <19)
-//     {
-//         greeting = "Good Afternoon";
-//         c.color="orange";
-//     }else{
+let curDate = new Date();
+curDate = curDate.getHours();
+let greeting = " ";
+const c = { };
+if(curDate>=1 && curDate <12)
+{
+   greeting = "Good Morning";
+   c.color="solid green";
+}else if(curDate>=12 && curDate <19)
+    {
+        greeting = "Good Afternoon";
+        c.color="solid orange";
+    }else{
 
-//         greeting = "Good Night";
-//         c.color="black";
-//     }
+        greeting = "Good Night";
+        c.color="black";
+    }
 
-//     const a={color:"yellow"}
+    const a={color:"yellow"};
 
-// ReactDOM.render(
-// <>
-// <div>
-// <h1><span style={a}>Hello sir,</span> <span style={c}>{greeting} </span></h1>
-// </div>
-// </>
-// ,
-// document.getElementById("root")
+ReactDOM.render(
+<>
+<div>
+<h1><span style={a}>Hello sir,</span> <span style={c}>{greeting} </span></h1>
+</div>
+</>
+,
+document.getElementById("root")
 
-// );
+);
 
 //-- - -- - - - - -- - - - -- - - - - - - - -- - - - - -  -- - - -- - - - - - 
 
@@ -534,17 +534,17 @@
 
 
 
-import React from 'react';
-import ReactDOM from 'react-dom';
-import Aapp from './Aapp';
-import "./index.css";
+// import React from 'react';
+// import ReactDOM from 'react-dom';
+// import Aapp from './Aapp';
+// import "./index.css";
 
 
-ReactDOM.render(
-    <>
+// ReactDOM.render(
+//     <>
 
-<Aapp/>
+// <Aapp/>
 
-    </>
-,document.getElementById("root")
-);
+//     </>
+// ,document.getElementById("root")
+// );
